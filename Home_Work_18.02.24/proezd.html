@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="proezd.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Расчет стоимости проездного</h1>
+    <form>
+      <label for="birthYear">Год рождения:</label>
+      <input type="number" id="birthYear">
+      <br>
+      <label for="tariff">Тариф:</label>
+      <select id="tariff">
+        <option value="hour">Час</option>
+        <option value="week">Неделя</option>
+        <option value="month">Месяц</option>
+        <option value="year">Год</option>
+      </select>
+      <br>
+      <input type="submit" value="Рассчитать">
+    </form>
+    <br>
+    <div id="result"></div>
+    <script src="proyezd.js"></script>
+    <div><img src="img/bus1.jpg" alt=""></div>
+</body>
+</html>
