@@ -9,3 +9,6 @@ print(center)
 print(center)
 print(center)
 print(top_bottom_border)
+
+
+#3. Нарисовать только границу поля и пустую серединку.
